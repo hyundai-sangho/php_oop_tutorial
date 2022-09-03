@@ -1,0 +1,17 @@
+{
+  "name": "cho/composer-app",
+  "authors": [
+    {
+      "name": "조상호",
+      "email": "hyundai_sangho@naver.com"
+    }
+  ],
+  "require": {
+    "monolog/monolog": "1.22.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Greeting\\": "source/Greeting"
+    }
+  }
+}

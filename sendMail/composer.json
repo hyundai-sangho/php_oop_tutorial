@@ -1,0 +1,17 @@
+{
+  "name": "cho/send-mail",
+  "autoload": {
+    "psr-4": {
+      "Cho\\SendMail\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "조상호",
+      "email": "hyundai_sangho@naver.com"
+    }
+  ],
+  "require": {
+    "phpmailer/phpmailer": "~6.1"
+  }
+}
